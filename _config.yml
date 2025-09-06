@@ -1,102 +1,557 @@
-# Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
-
-# Publish posts or collection documents with a future date.
-future: true
-
-# SNS settings
-RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude:
-  [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
-  ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
-
-# Disqus settings
-disqus_username: hux
-
-# Netease settings
-netease_comment: false
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-# Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
-
-# Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
-
-# Friends
-friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Box & File Case Packaging Trends 2025 - Kylin Machinery Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px 0;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .trends-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .trends-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .trend-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+            margin-bottom: 0;
+        }
+        
+        .trend-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .trend-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+        
+        .products-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .product-content {
+            padding: 20px;
+        }
+        
+        .product-title {
+            color: #2c3e50;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .product-description {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .specs-table th,
+        .specs-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .specs-table th {
+            background: #343a40;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .price-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 15px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            margin: 15px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .cta-button {
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        
+        .reference {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .trends-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .trend-card, .product-content {
+                padding: 15px;
+            }
+            
+            .trends-section, .products-section {
+                padding: 15px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .trends-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 Perfume Box & File Case Packaging Trends 2025</h1>
+            <p class="subtitle">Revolutionary Packaging Solutions by Kylin Machinery</p>
+            <p>Transforming the packaging industry with sustainable, smart, and minimalist design solutions</p>
+        </header>
+        
+        <section class="trends-section">
+            <h2 style="text-align: center; color: #2c3e50; margin-bottom: 20px; font-size: 2em;">📈 Leading Packaging Trends 2025</h2>
+            
+            <div class="trends-grid">
+                <div class="trend-card">
+                    <h3>🌱 Sustainable Packaging</h3>
+                    <p>Eco-conscious materials and biodegradable coatings satisfy environmental standards while maintaining premium appeal. Reduces carbon footprint by 45%.</p>
+                    <div class="reference">Source: Rich Packaging, Luxury Paper Box</div>
+                </div>
+                
+                <div class="trend-card">
+                    <h3>📱 Smart Packaging Technology</h3>
+                    <p>Integration of QR codes, NFC chips, and temperature sensors creates interactive experiences. Increases brand engagement by 75% and reduces counterfeiting by 85%.</p>
+                    <div class="reference">Source: GoZone Pack, Gator Packaging</div>
+                </div>
+                
+                <div class="trend-card">
+                    <h3>✨ Minimalist Design</h3>
+                    <p>Clean lines, limited color palettes, and strategic white space create premium appeal. Reduces production costs by 30% while increasing perceived value by 55%.</p>
+                    <div class="reference">Source: Clyde Presentation Packaging</div>
+                </div>
+                
+                <div class="trend-card">
+                    <h3>🎨 Customization & Personalization</h3>
+                    <p>Digital printing and modular tooling systems enable personalized packaging at scale. Reduces setup times by 70% while offering unlimited design variations.</p>
+                    <div class="reference">Source: Brown Packaging, Racer Boxes</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="products-section">
+            <h2 style="text-align: center; color: #2c3e50; margin-bottom: 15px; font-size: 2em;">🏭 Kylin Machinery Solutions</h2>
+            <p style="text-align: center; margin-bottom: 20px; font-size: 1.1em; color: #7f8c8d;">Advanced packaging machinery designed to meet 2025 trends and beyond</p>
+            
+            <div class="product-grid">
+                <!-- Product 1: Slip Case Machine -->
+                <div class="product-card">
+                    <img src="https://kylinmachines.com/wp-content/uploads/2020/12/slip-case-machine-1-1024x778.jpg" alt="Slip Case Making Machine" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">📁 Slip Case Making Machine (KY-280)</h3>
+                        <p class="product-description">
+                            Perfect for file cases and document storage solutions. Ideal for sustainable packaging with recycled materials, meeting corporate sustainability goals while maintaining premium quality.
+                        </p>
+                        
+                        <div class="price-tag">
+                            💰 Price: US$17,800 (CIF)
+                        </div>
+                        
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>KY-280</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Size (D×L×W)</td>
+                                    <td>350×280×100mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Min Size (D×L×W)</td>
+                                    <td>50×80×15mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Working Speed</td>
+                                    <td>650-1000 pcs/hour</td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>800W</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Weight</td>
+                                    <td>400Kg</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/AWFSBSmdQSM" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <a href="https://kylinmachines.com/Machine/book-slip-case-machine/" class="cta-button" target="_blank">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Product 2: Box Press Machine -->
+                <div class="product-card">
+                    <img src="https://kylinmachines.com/wp-content/uploads/2020/12/box-press-and-folding-in-machine-1024x846.jpg" alt="Box Press and Fold-in Machine" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">📦 Box Press & Fold-in Machine (KY-238)</h3>
+                        <p class="product-description">
+                            Specialized for perfume boxes and smart packaging integration. Accommodates NFC chips and sensor placement while maintaining structural integrity. Perfect for luxury rigid boxes.
+                        </p>
+                        
+                        <div class="price-tag">
+                            💰 Price: US$13,800 (CIF)
+                        </div>
+                        
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>KY-238</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Size (D×L×W)</td>
+                                    <td>320×400×300mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Min Size (D×L×W)</td>
+                                    <td>50×80×15mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Working Speed</td>
+                                    <td>800-1200 pcs/hour</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Weight</td>
+                                    <td>900Kg</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Size</td>
+                                    <td>1000×1000×1950mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Customization</td>
+                                    <td>Any shape of box</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/nci9mlllacA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <a href="https://kylinmachines.com/Machine/box-press-and-fold-in-machine/" class="cta-button" target="_blank">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Product 3: Automatic Drawer Box Machine -->
+                <div class="product-card">
+                    <img src="https://kylinmachines.com/wp-content/uploads/2025/06/94c2d9a8947970c2e58ec7e45557e48-1024x768.jpg" alt="Automatic Drawer Box Machine" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">🎁 Auto Perfume Box Ribbon Attached Machine (KY-350ET)</h3>
+                        <p class="product-description">
+                            Revolutionary all-in-one solution for perfume boxes with automated ribbon attachment. Perfect for high-end packaging with minimalist design requirements and premium finishes.
+                        </p>
+                        
+                        <div class="price-tag">
+                            💰 Price: US$18,800 (CIF)
+                        </div>
+                        
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>KY-350ET</td>
+                                </tr>
+                                <tr>
+                                    <td>Voltage/Power</td>
+                                    <td>220V / 4000W</td>
+                                </tr>
+                                <tr>
+                                    <td>Speed</td>
+                                    <td>20-25 pcs/minute</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Lid Size (L×W×H)</td>
+                                    <td>350×400×120mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Min Lid Size (L×W×H)</td>
+                                    <td>50×50×10mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Weight</td>
+                                    <td>700Kg</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Dimensions</td>
+                                    <td>1370×1100×1800mm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Pyqso5rQCfI" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <a href="https://kylinmachines.com/Machine/automatic-drawer-box-punching-ribbon-threading-machine/" class="cta-button" target="_blank">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Product 4: Auto Rigid Box Forming Robot Machine -->
+                <div class="product-card">
+                    <img src="https://kylinmachines.com/wp-content/uploads/2023/12/ed635bdac5f50155083400893ea2549-1024x768.jpg" alt="Auto Rigid Box Forming Robot Machine" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">🤖 Auto Rigid Box Forming Robot Machine (KY-600DS)</h3>
+                        <p class="product-description">
+                            Revolutionary box-holding robot that perfectly integrates with auto feeder glue machines. Designed for high-volume production of rigid boxes including shoe boxes, gift boxes, and jewelry boxes with automated precision.
+                        </p>
+                        
+                        <div class="price-tag">
+                            💰 Price: US$19,800 (CIF)
+                        </div>
+                        
+                        <table class="specs-table">
+                            <thead>
+                                <tr>
+                                    <th>Specification</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>KY-600DS</td>
+                                </tr>
+                                <tr>
+                                    <td>Min Box Size (L×W×H)</td>
+                                    <td>45×45×10mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Box Size (L×W×H)</td>
+                                    <td>580×420×120mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Working Speed</td>
+                                    <td>16-20 pcs/min</td>
+                                </tr>
+                                <tr>
+                                    <td>Belt Size (L×W×H)</td>
+                                    <td>2400×850×800mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Voltage/Power</td>
+                                    <td>220V / 1.5KW</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Dimensions</td>
+                                    <td>1500×1350×1700mm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/-PfIE2U4u5k" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <a href="https://kylinmachines.com/Machine/2023-auto-rigid-box-forming-robot-machine-ky-600ds/" class="cta-button" target="_blank">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-section">
+            <h2 style="margin-bottom: 20px; font-size: 2em;">🚀 Ready to Transform Your Packaging Production?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">Join 10,000+ customers in 30 countries using Kylin Machinery solutions</p>
+            
+            <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; margin: 20px 0;">
+                <h3 style="margin-bottom: 15px;">💼 Trading Terms</h3>
+                <p><strong>Payment:</strong> 50% T/T for deposit, 50% T/T prior to shipment</p>
+                <p><strong>Delivery:</strong> 15 days</p>
+                <p><strong>Pricing:</strong> All prices are CIF (Cost, Insurance, and Freight)</p>
+                <p><strong>Warranty:</strong> 1 year machine quality warranty</p>
+            </div>
+            
+            <a href="https://kylinmachines.com" class="cta-button" target="_blank">Visit Our Website</a>
+            <a href="tel:+8613809820550" class="cta-button">Call: +86 138-0982-0550</a>
+        </section>
+        
+        <footer style="text-align: center; margin-top: 30px; color: rgba(255, 255, 255, 0.8);">
+            <p>&copy; 2025 Kylin Machinery. Leading the packaging revolution with innovative solutions.</p>
+            <p>Specializing in post-press machines, rigid box machines, and automated packaging systems.</p>
+        </footer>
+    </div>
+</body>
+</html>
